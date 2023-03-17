@@ -1,0 +1,197 @@
+
+#box1:hover{
+repeat-count:10;
+  transform: rotateY(360deg);
+  transition-duration: 2s
+}
+body{
+  width:100%;
+  height:100vh;
+  text-align:center;
+  background:black;
+}
+container:hover{
+ transform: translateX(100deg);
+ transition-duration: 6s;
+}
+#box1{
+         
+  
+  margin-left:50%;
+  top:50%; /*
+  transform:translate(-50%); */
+  background:grey;
+  width:100px;
+  height:100px;
+}
+#box2:hover{
+ 
+  transform: rotateY(0deg);
+  transition-duration: 2s;
+}
+#box2{
+  margin-left:50%;
+  
+  transform:translate(-50%);
+  background:grey;
+  width:100px;
+  height:100px;
+}
+#box3:hover{
+  transform: rotateX(85deg);
+  transition-duration: 2s;
+}
+#box3{
+  margin-left:50%;
+  transform:translate(-50%);
+  background:grey;
+  width:100px;
+  height:100px;
+} /*
+#box4:hover{
+  transform: rotateY(140deg);
+  transition-duration: 2s;
+}
+#box4{
+  background:grey;
+  width:100px;
+  height:100px;
+}
+#box5:hover{
+  transform: rotateY(140deg);
+  transition-duration: 2s;
+}
+#box5{
+  background:grey;
+  width:100px;
+  height:100px;
+}
+#box6:hover{
+  transform: rotateY(140deg);
+  transition-duration: 2s;
+}
+#box6{
+  background:grey;
+  width:100px;
+  height:100px;
+}
+
+p{
+  margin-top:50%;
+  transform:(50%);
+  text-align:center;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+}
+*/
+
+.frame .earth{
+  stroke:white;
+  stroke-width:10px;
+  stroke-linecap: round;
+} 
+.frame .earth:hover{
+  transform:rotateZ(360deg);
+  transition-duration:10s;
+} 
+.frame{
+  stroke:black;
+ 
+}
+.gingerbread .body {
+  fill: #cd803d;
+}
+
+.gingerbread .eye {
+  fill: white;
+}
+
+.gingerbread .mouth {
+  fill: none;
+  stroke: pink;
+  stroke-width: 2px;
+}
+
+.gingerbread .limb {
+  stroke: #cd803d;
+  stroke-width: 35px;
+  stroke-linecap: round;
+}
+.gingerbread .limb:hover{
+  transform:rotateX(45deg);
+  transition-duration:2s;
+  stroke: #cd803d;
+  stroke-width: 35px;
+  stroke-linecap: round;
+}
+  
+  
+  .spongebob .body{
+    fill:yellow;
+    stroke-width:20px;
+    stroke-linecap: round;
+    border-radius:10px;
+  } 
+  .spongebob .eye{
+   fill:white;
+    stroke: black;
+  stroke-width: 5px;
+  stroke-linecap: circle;
+  } 
+   .spongebob .eye:hover{
+   fill:white;
+    stroke: black;
+  stroke-width: 5px;
+  stroke-linecap: circle;
+  transform:rotateZ(100deg);
+  transition-duration:2s;
+  } 
+   .spongebob .mouth{
+  fill: red;
+  stroke: pink;
+  stroke-width: 2px;
+  stroke-linecap: round;
+} 
+  .spongebob .mouth:hover{
+    position:relative;
+    z-index: 1;
+    transform:rotateX(85deg);
+  transition-duration:1s;
+  fill: red;
+  stroke: pink;
+  stroke-width: 2px;
+  stroke-linecap: round;
+} 
+.spongebob .teeth{
+  fill:white;
+} 
+.spongebob .teeth:hover{
+  no
+  fill:yellow;
+} 
+.spongebob .cloth{
+  stroke:white;
+  stroke-width:12px;
+fill:purple;
+stroke-linecap: round;
+}
+.spongebob .legs{
+  fill:yellow;
+}
+.text{
+  fill:black;
+  font-size:20px;
+}
+.h{
+  text-align:center;
+  color:white;
+}
+p{
+  font-size:25px;
+}
+#truck:hover{
+   transform: translateX(180deg);
+  transition-duration:6s;
+  animation-duration: 10s;
+}
